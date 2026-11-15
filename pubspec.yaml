@@ -1,0 +1,21 @@
+name: printing_press
+description: A printing press management app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.0
+  path: ^1.8.2
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
